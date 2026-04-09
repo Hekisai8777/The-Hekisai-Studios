@@ -14,89 +14,100 @@
         }
 
         header {
-            background-color: rgba(232, 100, 56, 0.95);
-            padding: 80px 20px;
+            background-color: #E86438;
+            padding: 60px 20px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.6);
             border-bottom: 5px solid #bf5c3f;
         }
-        header h1 { font-size: 3.5em; margin: 0; text-shadow: 3px 3px 8px rgba(0,0,0,0.7); }
-
-        .panda-mascot {
-            width: 150px;
-            border-radius: 50%;
-            border: 5px solid #FFEDD1;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.7);
-            transform: translateY(-80px);
-            display: inline-block;
-        }
+        header h1 { font-size: 3em; margin: 0; text-shadow: 3px 3px 8px rgba(0,0,0,0.7); }
 
         .container {
             max-width: 900px;
             margin: auto;
-            padding: 40px 30px 50px 30px;
+            padding: 40px 30px;
             background-color: rgba(37, 37, 37, 0.9);
             border-radius: 25px;
             box-shadow: 0 15px 40px rgba(0,0,0,0.9);
-            margin-top: -40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
 
-        .echo-project {
-            background: #252525;
-            padding: 40px;
-            border-radius: 20px;
-            border-left: 10px solid #E86438;
-            text-align: left;
-            margin-top: 20px;
+        .banner-img {
+            width: 100%;
+            border-radius: 15px;
+            border: 3px solid #E86438;
+            margin-bottom: 30px;
         }
-        .echo-project h2 { font-size: 2.2em; color: #E86438; margin-top: 0; }
+
+        .project-card {
+            background: #252525;
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #E86438;
+            text-align: left;
+        }
+        .project-card h2 { font-size: 2em; color: #E86438; margin-top: 0; }
+        
+        .warning-box {
+            background-color: rgba(232, 100, 56, 0.1);
+            border: 1px dashed #E86438;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-style: italic;
+        }
 
         .btn-download {
             background-color: #E86438;
             color: white;
-            padding: 22px 45px;
+            padding: 20px 45px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 24px;
-            border-radius: 60px;
+            font-size: 22px;
+            border-radius: 50px;
             display: inline-block;
-            margin-top: 40px;
-            transition: 0.4s;
-            box-shadow: 0 6px 20px rgba(232, 100, 56, 0.5);
+            margin-top: 30px;
+            transition: 0.3s;
+            box-shadow: 0 6px 15px rgba(232, 100, 56, 0.3);
         }
         .btn-download:hover {
             background-color: #bf5c3f;
-            transform: scale(1.05);
+            transform: translateY(-3px);
         }
 
-        footer { margin-top: 80px; padding: 30px; color: #aaa; border-top: 1px solid #333; }
+        footer { padding: 30px; color: #666; font-size: 0.9em; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>The Hekisai Studios</h1>
-    <p>Desenvolvimento e Manutenção de Projetos</p>
+    <p>Manutenção e Continuidade de Projetos</p>
 </header>
 
-<img src="https://avatars.githubusercontent.com/u/161109724" class="panda-mascot" alt="Red Panda Hekisai">
-
 <div class="container">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=E86438&height=220&section=header&text=Hekisai8777&fontSize=80&animation=fadeIn&fontColor=FFEDD1" class="banner-img" alt="Hekisai8777">
+
     <section>
-        <p>Bem-vindo ao repositório oficial do <strong>The Hekisai Studios</strong>. Este espaço é dedicado à organização e distribuição de ferramentas, scripts e projetos assumidos por Hekisai8777.</p>
-        
-        <div class="echo-project">
+        <div class="project-card">
             <h2>Echo Project (PT-BR)</h2>
-            <p>Assumimos a manutenção e continuidade deste projeto de tradução para garantir que a comunidade brasileira tenha acesso a uma versão funcional e atualizada.</p>
-            <p>Este repositório serve como a base atual para quem busca a localização completa do Echo em nosso idioma.</p>
+            
+            <div class="warning-box">
+                Nota: Como a obra original foi descontinuada/parada pelos autores anteriores, o <strong>The Hekisai Studios</strong> assumiu a responsabilidade de manter e atualizar esta localização para a comunidade.
+            </div>
+
+            <p>Este repositório é agora a fonte principal para a tradução em Português-Brasileiro, focada em manter o projeto vivo, revisado e compatível com as versões atuais.</p>
+            
+            <p>Todo o trabalho de adaptação e novos scripts são processados internamente para garantir a melhor fidelidade possível.</p>
         </div>
         
         <a href="https://github.com/Hekisai8777/Echo-PTBR/releases" class="btn-download">
-            📥 Baixar Tradução Atualizada
+            📥 Baixar Tradução (Versão Hekisai)
         </a>
     </section>
 
     <footer>
-        <p>&copy; 2026 The Hekisai Studios - Hekisai8777</p>
+        <p>The Hekisai Studios - 2026</p>
     </footer>
 </div>
 
